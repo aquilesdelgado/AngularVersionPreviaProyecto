@@ -1,0 +1,56 @@
+*{
+    box-sizing: content-box;
+}
+.divpelis1{
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+.peliculas1 {
+    width: 100%;
+    display: inline-flex;
+    overflow: scroll;
+    margin-top: 8%;
+}
+.pelis1 {
+    box-sizing: padding-box;
+    margin-right: 2rem;
+    list-style: none;
+    display: grid;
+    padding-right: 4px;
+    width: 22%;
+
+}
+h1.pelis_lista1 {
+
+    display: grid;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    align-content: center;
+    position: relative;
+    width: 300px;
+    height: 60px;
+
+
+}
+.botondetalles1{
+    border-radius: 30px;
+    margin: 20px;
+    font-size: 1.2rem;
+}
+.imagen1 {
+    box-sizing: content-box;
+    width: 300px;
+    height: 450px;
+    position: marker;
+
+}
+.botondetalles1:hover{
+    background-color: #9c9c9c;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+a {
+    cursor: pointer;
+}

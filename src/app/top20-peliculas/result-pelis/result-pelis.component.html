@@ -1,0 +1,11 @@
+<section class="divpelis1">
+  <ngx-slick  class="carousel" #slickModal="slick-modal" [config]="slideconfing">>
+    <div ngxSlickItem class="pelis1" *ngFor="let pelis of resultPelis"><a (click)="detalles(pelis.id)">
+
+      <h1 class="pelis_lista1">{{pelis.title||pelis.name}}</h1>
+      <img class="imagen1" [src]="pelis.poster_path || pelis.profile_path | addImage"></a>
+      <button class="botondetalles1" (click)="detalles(pelis.id)">Detalles</button>
+
+    </div>
+  </ngx-slick>
+</section>

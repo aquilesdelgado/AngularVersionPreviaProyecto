@@ -1,0 +1,50 @@
+.detalles {
+    align-items: center;
+}
+
+.peliculas1 {
+    display: block;
+    padding-top: 10%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 20px;
+    font-size: 1.5rem;
+
+}
+.peliculas__desc {
+    justify-content: left;
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 20%;
+    padding-bottom: 50%;
+    line-height: inherit;
+
+}
+img {
+    float: left;
+    margin: 20px;
+
+}
+h2 {
+    margin-left: 40%;
+}
+.bottonBack {
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+    border-radius: 50px;
+    margin-left: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.bottonBack:hover {
+    background-color: #9c9c9c;
+    color: #ffffff;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+
+

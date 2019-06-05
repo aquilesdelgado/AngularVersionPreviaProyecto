@@ -1,0 +1,5 @@
+<form class="form" (ngSubmit)="guardar(buscar.value)" #userForm="ngForm">
+  <input class="input" type="search" name="buscar" ngModel required #buscar="ngModel">
+  <button class="botonbuscar" type="submit" name="busqueda" [disabled]="!userForm.valid">Buscar</button>
+
+</form>
